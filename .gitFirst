@@ -1,1 +1,3 @@
-myFirstGit.log
+/myFirstGit.log
+*.log
+/
