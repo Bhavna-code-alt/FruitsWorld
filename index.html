@@ -5,22 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body style="margin: 0">
     <div id="header" style="padding: 1rem 0; background-color: lightblue">
-      <h1 id="main-heading" style="margin: 0">Fruit Shop</h1>
+      <h1 id="main-heading" style="margin:0; text-align: center; border : 2px double rgb(4, 79, 141); text-transform: uppercase; font: 50px;">Fruit Shop</h1>
+      <input id="filter" type="text" placeholder="Search fruits..."/>
     </div>
     <div>
-      <h2 id="basket-heading">Fruits In Basket</h2>
+      <form>
+        <h2 id="onlineFruits">Buy High Quality Organic Fruits Online</h2>
+        <h2 id="add">Add Fruits</h2>
+        <input type="text" name="fruit" id="add">
+        <button type="submit">Add</button>
+        
+      </form>
       <ul class="fruits">
-        <li class="fruit">Banana</li>
-        <li class="fruit">Apple</li>
-        <li class="fruit">Orange</li>
-        <li class="fruit">Kiwi</li>
-        <li class="fruit">Mango</li>
+        <h2 id="basket-heading">Fruits In Basket</h2>
+        <li class="fruit">Banana<button class="del">x</button></li>
+        <li class="fruit">Apple<button class="del">x</button></li>
+        <li class="fruit">Orange<button class="del">x</button></li>
+        <li class="fruit">Kiwi<button class="del">x</button></li>
+        <li class="fruit">Mango<button class="del">x</button></li>
       </ul>
     </div>
-    <div id="thanks"></div>
+    <div id="Fruit-Count" title="total-fruits">Total Fruits: 05</div>
+  
   </body>
   <script src="index.js"></script>
 </html>

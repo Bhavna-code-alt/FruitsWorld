@@ -1,0 +1,81 @@
+#header {
+    display : flex;
+    justify-content : space-between;
+    border-bottom: 5px solid rgb(4, 79, 141);
+}
+#header input {
+    width : 30%;
+    border : 3px rgb(4, 79, 141);
+    border-radius: 5px;
+}
+form {
+    margin : 50px;
+    width : 100%;
+}
+form input {
+    height: 20px;
+    width:55%;
+    border: 2px solid yellowgreen;
+    padding : 5px;
+    border-radius: 5px;
+}
+form button {
+    height : 40px;
+    width: 10%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+#basket-heading {
+    margin-bottom : 20px;
+    color : brown;
+}
+#onlineFruits {
+    color : white;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #a1097b;
+    padding: 10px;
+    width: 700px;
+    border-radius: 5px;
+}
+#Fruit-Count {
+    font-style: italic;
+    color :#570242;
+    text-decoration: underline double palevioletred;
+    margin-left : 50px;
+}
+.fruits {
+    background-color: pink;
+    padding : 5px;
+    margin : 0 30px;
+    border-radius: 5px;
+    width : 60%;
+    list-style-type: none;
+}
+.fruit {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color : #F3D85F;
+    padding : 30px;
+    margin : 10px;
+    border-radius: 5px;
+}
+.del {
+    align-self: flex-end;
+    background-color: tomato;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 25px;
+}
+.edit-btn {
+    align-self: flex-end;
+    background-color: brown;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
