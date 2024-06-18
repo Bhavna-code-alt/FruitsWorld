@@ -8,6 +8,12 @@
     border : 3px rgb(4, 79, 141);
     border-radius: 5px;
 }
+#filter {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: 50%;
+}
 form {
     margin : 50px;
     width : 100%;
@@ -64,6 +70,9 @@ form button {
     margin : 10px;
     border-radius: 5px;
 }
+.fruit button {
+    margin :0.5rem;
+}
 .del {
     align-self: flex-end;
     background-color: tomato;
@@ -73,9 +82,10 @@ form button {
 }
 .edit-btn {
     align-self: flex-end;
-    background-color: brown;
+    background-color: rgb(8, 52, 181);
     border: none;
     border-radius: 2px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     margin-top: 5px;
+    color :azure;
 }
